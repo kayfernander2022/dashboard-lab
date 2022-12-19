@@ -3,9 +3,11 @@ import Square from "./Square";
 function AverageRating(){
   return (
   <>
-  <Square className='square' title='This is avg rating'/>
-    </>
-  );
+  <Square className='rating' title='Average Rating'>
+  <p>4.6</p>
+    </Square>
+    </>);
+  
 }
 
 export default AverageRating

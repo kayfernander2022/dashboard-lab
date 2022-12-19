@@ -2,7 +2,9 @@ import Square from "./Square"
 
 function Reviews(){
   return (<>
-  <Square className='square' title='This is Reviews square'/>
+  <Square className='reviews' title='Reviews'>
+    <p>1,281</p>
+  </Square>
   </>);
 }
 

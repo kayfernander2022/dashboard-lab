@@ -1,7 +1,15 @@
 function Sidebar(){
   return(
-    <div className="side">
-      <h1>Sidebar</h1>
+    <div className="sidebar">
+      
+      <ul>
+        <li>Dashboard</li>
+        <li>Widget</li>
+        <li>Reviews</li>
+        <li>Customers</li>
+        <li>Online Analysis</li>
+        <li>Settings</li>
+      </ul>
     </div>
     )
     }
